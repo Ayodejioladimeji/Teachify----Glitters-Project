@@ -10,7 +10,7 @@ a completion certificate will be automatically generated.
 
 ### Figma Design Link
 
-Open [project template link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEARNING-MANAGEMENT-SYSTEM?node-id=0%3A1).
+Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEARNING-MANAGEMENT-SYSTEM?node-id=0%3A1).
 
 ### GUYS WE ARE WORKING ON THE DEVELOP BRANCH
 
@@ -19,11 +19,11 @@ Open [project template link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/L
 1. Fork the repository
 2. Clone and then open it up on your prefered code editor
 3. Open terminal and set upstream branch : git remote add upstream `https://github.com/Ayodejioladimeji/Teachify----Glitters-Project.git`
-4. Pull upstream `git pull upstream main`
+4. Pull upstream `git pull upstream develop`
 5. Create a new branch for the task you are doing eg : `git checkout -b develop`
 6. After making changes, do `git add .`
 7. Commit your changes with a descriptive commit message : `git commit -m "commit message"`
-8. To make sure there are no conflicts : `git pull upstream main`
+8. To make sure there are no conflicts : `git pull upstream develop`
 9. Push changes to your new branch : `git push origin your-current-branch-name`
 10. Create a pull request to the main branch
 
@@ -55,7 +55,7 @@ Open [project template link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/L
 
     		Name					Email Adress
 
-1.      Ayodeji Oladimeji		alayosingers@gmail.com
+1.        Ayodeji Oladimeji		alayosingers@gmail.com
 2.
 3.
 4.
