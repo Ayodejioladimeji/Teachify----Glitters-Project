@@ -15,13 +15,16 @@
 
     /* THE COLOURS */
     --white: #fff;
-    --primary: #F4A32C;
-    --secondary: #E8C842;
-    --tetiary: #EAD786;
-    --light: #EAECED;
+    --primary: #2EA2DB;
+    --light-blue: #2EA2DB;
+    --secondary: #F16051;
+    --tetiary: #193651;
+    --light: #E5E5E5;
+    --deep-light: #C4C4C4;
+    --main: #F29C1F;
     --black: #000;
 
-    --purple: #3F37AB;
+
 
 
     /* THE FONT-FAMILIES */
