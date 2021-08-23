@@ -56,7 +56,7 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
     		Name					Email Adress
 
 1.        Ayodeji Oladimeji		alayosingers@gmail.com
-2.
+2.        Abiodun Awoyemi     aabiodunawoyemi@gmail.com
 3.
 4.
 5.
