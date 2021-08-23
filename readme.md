@@ -59,7 +59,7 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
 2.        Victor Ade-Samuel    victoradesamuel16@gmail.com
 3.        Abiodun Awoyemi      aabiodunawoyemi@gmail.com
 4.        Oyewale Tayo Olamide Tayooyewale@gmail.com
-5.
+5.        Anyanwu Abigael      abigaelanyanwu@gmail.com
 6.
 7.
 8.
