@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+
+/* THE SECTION OF THE GLOBAL VARIABLES */
+:root {
+
+    /* THE COLOURS */
+    --white: #fff;
+    --primary: #F4A32C;
+    --secondary: #E8C842;
+    --tetiary: #EAD786;
+    --light: #EAECED;
+    --black: #000;
+
+    --purple: #3F37AB;
+
+
+    /* THE FONT-FAMILIES */
+    --mont: 'Montserrat';
+    --sans: "DM Sans";
+    --mukta: 'Mukta';
+
+
+    /* SHADOWS AND TRANSITIONS */
+    --shadows: 0px 22px 24px rgba(65, 111, 244, 0.2);
+    --shadoos: 0px 0px 7px rgba(65, 111, 65, 0.2);
+    --shadow: 15px 15px 25px #ddd;
+    --transition: all 0.3s linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-center {
+    /* it will be used as utility class */
+    text-align: center;
+}
+
+
+/* ================Create a file for whatever you worked on======================== */
+
+
+/* START YOUR CSS FROM HERE */
+/* ===========TO USE THE VARIABLE CHECK THE EXAMPLES BELOW====================== */
+/* color:var(--white);
+  background:var(--primary);
+  transition:var(--transition);
+  box-shadow:var(--shadoos);
+  font-family:var(--mukta); */
+
+/* =============FOLLOW THE EXAMPLES ABOVE==================================== */
+
+
+/* THE SECTION OF THE NAVIGATIONAL BAR */
+
+
+
+
+
+
+
+/* THE END OF THE NAVIGATIONAL BAR */
+
+
+/* THE BEGINNING OF THE HERO SECTION*/
+
+
+
+
+/* THE END OF THE HERO SECTION */
+
+
+/* ===================================================== */
+/* THE BEGINNING OF THE MAIN SECTION */
+
+
+/* THE END OF THE MAIN SECTION */
