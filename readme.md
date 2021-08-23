@@ -10,7 +10,7 @@ a completion certificate will be automatically generated.
 
 ### Figma Design Link
 
-Open [project template link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEARNING-MANAGEMENT-SYSTEM?node-id=0%3A1).
+Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEARNING-MANAGEMENT-SYSTEM?node-id=0%3A1).
 
 ### GUYS WE ARE WORKING ON THE DEVELOP BRANCH
 
@@ -55,7 +55,7 @@ Open [project template link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/L
 
     		Name					Email Adress
 
-1.      Ayodeji Oladimeji		alayosingers@gmail.com
+1.       Ayodeji Oladimeji		alayosingers@gmail.com
 2.
 3.
 4.
