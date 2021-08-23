@@ -56,7 +56,7 @@ Open [project template link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/L
     		Name					Email Adress
 
 1.      Ayodeji Oladimeji		alayosingers@gmail.com
-2.
+2.      Victor Ade-Samuel   victoradesamuel16@gmail.com
 3.
 4.
 5.
