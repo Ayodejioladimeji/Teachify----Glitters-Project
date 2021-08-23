@@ -58,7 +58,7 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
 1.        Ayodeji Oladimeji		alayosingers@gmail.com
 2.        Victor Ade-Samuel   victoradesamuel16@gmail.com
 2.        Abiodun Awoyemi     aabiodunawoyemi@gmail.com
-3.
+3.        Ibrahim Rabiu.       alhibb01@gmail.com
 4.
 5.
 6.
