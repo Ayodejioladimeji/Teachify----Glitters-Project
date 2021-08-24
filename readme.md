@@ -60,7 +60,7 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
 3.        Abiodun Awoyemi      aabiodunawoyemi@gmail.com
 4.        Oyewale Tayo Olamide Tayooyewale@gmail.com
 5.        Anyanwu Abigael      abigaelanyanwu@gmail.com
-6.
+6.        Abiola Janet         jntabiola@gmail.com
 7.
 8.
 9.
