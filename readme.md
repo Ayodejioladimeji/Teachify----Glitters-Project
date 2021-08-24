@@ -63,6 +63,6 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
 6.        Abiola Janet         jntabiola@gmail.com
 7.        Andrew Josiah        jossyandy451@gmail.com
 8.
-9.
+9.        Ibrahim Rabiu.       Alhibb01gmail.com
 10.
 
