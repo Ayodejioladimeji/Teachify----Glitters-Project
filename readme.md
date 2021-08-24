@@ -62,7 +62,7 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
 5.        Anyanwu Abigael      abigaelanyanwu@gmail.com
 6.        Abiola Janet         jntabiola@gmail.com
 7.        Andrew Josiah        jossyandy451@gmail.com
-8.
+8.        Lawal Kaosarah       lawalkawthar5@gmail.com
 9.        Ibrahim Rabiu.       Alhibb01gmail.com
 10.
 
