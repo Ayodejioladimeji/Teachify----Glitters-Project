@@ -170,7 +170,6 @@ ul {
 
 /* THE SECTION OF THE NAVIGATIONAL BAR */
 .navbar {
-    background: grey !important;
     padding: 29px 35px 33px 12px;
 
 }
@@ -189,7 +188,7 @@ ul {
 }
 .navbar-nav .dropdown .nav-link span {
     margin-left: 1rem;
-    font-family: Montserrat;
+    font-family: var(--mont);
     font-weight: bold;
 }
 .navbar-nav .dropdown .nav-link img {
@@ -227,7 +226,7 @@ ul {
 /* THE BEGINNING OF THE HERO SECTION */
 .hero {
 	position: relative;
-	color: #fff;
+	color: var(--white);
 	margin: auto;
 }
 .hero-img {
@@ -254,7 +253,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     /* line-height: 90px; */
-    color: #FFFFFF;
+    color: var(--white);
 }
 .hero .content h3 {
     font-family: Montserrat;
@@ -263,7 +262,7 @@ ul {
     font-size: 84.2337px;
     margin-top: -20px;
     /* line-height: 103px; */
-    color: #2EA2DB;
+    color: var(--primary);
     /* border: 3.50161px solid #FFFFFF; */
 }
 .hero .content h3 span img {
@@ -276,7 +275,7 @@ ul {
     font-weight: normal;
     font-size: 23.9743px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--white);
     margin-bottom: 3rem;
 }
 .hero .content a {
@@ -297,7 +296,7 @@ ul {
     height: 30px;
     padding: 0 6px;
     margin: 0px 8px 0px 8px;
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -330,8 +329,29 @@ main .what-we-offer-1 {
     color: var(--white);
 }
 
+main .what-we-offer-2 {
+    padding: 50px 50px 80px;
+    background: rgba(46, 162, 219, 0.13);
+}
+
+main .what-we-offer-2 .card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+}
+
+main .what-we-offer-2 .card img {
+    margin: 10px auto 0;
+}
+
+main .what-we-offer-2 .card .card-title {
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 575px) {
-    main .what-we-offer-1 {
+    main .what-we-offer-1,
+    main .what-we-offer-2 {
         padding: 40px 20px;
     }
 }
