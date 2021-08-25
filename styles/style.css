@@ -58,6 +58,106 @@ ul {
 
 
 /* START YOUR CSS FROM HERE */
+
+.container {
+    margin: auto;
+    max-width: 1265px;
+    overflow: auto;
+    padding: 0px;
+    background-color: var(--white);
+}
+/* Terms and Conditions Title */
+#tc_title {
+    background: #193651;
+    width: 1265px;
+    height: 130px;
+   
+}
+#tc_title .tc_title h1 {
+    background-color: #193651;
+    color: white;
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    margin: 40px 60px;
+   
+    font-family: Eagle Lake;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 39px;
+
+}
+/* Terms and conditions image */
+#tc_img .tc_img img{
+  
+    width: 1265px;
+    height: 500px;
+}
+
+/* Terms and Conditions content */
+
+#tc_body  {
+   
+    width: 1200px;
+    height: 500px;
+    padding: 50px;
+    margin: 30px;
+    background-color:  var(--white);
+}
+
+#tc_body .tc_body  h1 {
+    width: 400px;
+    padding: 10px ;
+    margin-bottom: 30px;
+    font-family:var(--sans)
+}
+
+#tc_body .tc_body  p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-family:var(--sans)
+}
+
+/* Footer  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: coral;
+}
+.footer {
+    background: #2EA2DB;
+    padding: 70px 0px;
+    margin: auto;
+    max-width: 1265px;
+    overflow: auto;
+
+}
+
+.footer-col h4 {
+    color: white;
+}
+.footer-col ul {
+    list-style: none;
+    color: white;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 35px;
+}
+
+.copyright {
+    background: #2EA2DB;
+    margin: 20px;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+
 /* ===========TO USE THE VARIABLE CHECK THE EXAMPLES BELOW====================== */
 /* color:var(--white);
   background:var(--primary);
@@ -69,13 +169,58 @@ ul {
 
 
 /* THE SECTION OF THE NAVIGATIONAL BAR */
+.navbar {
+    background: grey !important;
+    padding: 29px 35px 33px 12px;
 
+}
+.navbar > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.navbar-nav .dropdown {
+    margin-left: 95px;
+    background-color: var(--light);
+    color: var(--light-blue);
+    font-size: 18px;
+    line-height: 30px;
+}
+.navbar-nav .dropdown .nav-link span {
+    margin-left: 1rem;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.navbar-nav .dropdown .nav-link img {
+    width: 20px;
+}
+.navbar .container-fluid .navbar-collapse form input {
+    width: 300px;
+}
+.navbar .container-fluid .navbar-collapse form img {
+    right: 15px;
+    top: 8px;
+    width: 20px;
+}
+.navbar .container-fluid .navbar-collapse div a {
+    background-color: var(--primary);
+    text-decoration: none;
+    padding: 8px 10px;
+    color: var(--white);
+    font-family: Poppins;
+    font-weight: 600;
+}
+.navbar .container-fluid .navbar-collapse div a:last-child {
+    background-color: var(--secondary);
+    margin-left: 20px;
+}
 
-
-
-
-
+@media only screen and (min-width: 767px) {
+    .navbar {
+        padding: 29px 51px 33px 25px;
+    }
+}
 /* THE END OF THE NAVIGATIONAL BAR */
 
 

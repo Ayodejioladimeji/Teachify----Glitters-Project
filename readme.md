@@ -55,14 +55,21 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
 
     		Name					Email Adress
 
-1.        Ayodeji Oladimeji		alayosingers@gmail.com
-2.        Victor Ade-Samuel   victoradesamuel16@gmail.com
-2.        Abiodun Awoyemi     aabiodunawoyemi@gmail.com
-3.
-4.
-5.
+1.        Ayodeji Oladimeji		 alayosingers@gmail.com
+2.        Victor Ade-Samuel    victoradesamuel16@gmail.com
+3.        Abiodun Awoyemi      aabiodunawoyemi@gmail.com
+4.        Oyewale Tayo Olamide Tayooyewale@gmail.com
+5.        Anyanwu Abigael      abigaelanyanwu@gmail.com
+<<<<<<< HEAD
 6.
 7.
 8.
 9.
+=======
+6.        Abiola Janet         jntabiola@gmail.com
+7.        Andrew Josiah        jossyandy451@gmail.com
+8.        Lawal Kaosarah       lawalkawthar5@gmail.com
+9.        Ibrahim Rabiu.       Alhibb01gmail.com
+>>>>>>> f2c6b8f860f5ddb5ac9db266676b53494012d679
 10.
+
