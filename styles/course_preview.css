@@ -3,12 +3,10 @@
     display: grid;
     grid-template-columns: (4, 1fr);
     grid-template-columns: auto auto auto auto;
-    grid-gap; 2rem;
-    margin; 50px auto;
+    grid-gap: 2rem;
+    margin: 50px auto;
     height: 300px;
     
-    
-
 }
 
 .learning-pic .pic img{
@@ -23,7 +21,7 @@
 }*/
 
 
-The section of the media query */
+/* The section of the media query */
 @media screen and (max-width:768px){
     .learning-pic .pic{
          grid-template-columns: repeat(2, 1fr);
@@ -34,7 +32,7 @@ The section of the media query */
     .learning-pic .pic{
          grid-template-columns: 1fr;
     }
-}*/
+}
 
 
 

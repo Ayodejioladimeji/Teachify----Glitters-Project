@@ -10,8 +10,9 @@
     justify-content: center;
     height: 800px;
     left: 380px;
-    top: 6px;
+    top: 140px;
     background:var(--light);
+    margin-bottom:50px;
 }
 
 .form-container h1{
