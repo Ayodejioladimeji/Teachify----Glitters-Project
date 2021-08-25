@@ -60,9 +60,16 @@ Open [project figma link](https://www.figma.com/file/88zrQGYatTSHpezaP31Dop/LEAR
 3.        Abiodun Awoyemi      aabiodunawoyemi@gmail.com
 4.        Oyewale Tayo Olamide Tayooyewale@gmail.com
 5.        Anyanwu Abigael      abigaelanyanwu@gmail.com
+<<<<<<< HEAD
 6.
 7.
 8.
 9.
+=======
+6.        Abiola Janet         jntabiola@gmail.com
+7.        Andrew Josiah        jossyandy451@gmail.com
+8.        Lawal Kaosarah       lawalkawthar5@gmail.com
+9.        Ibrahim Rabiu.       Alhibb01gmail.com
+>>>>>>> f2c6b8f860f5ddb5ac9db266676b53494012d679
 10.
 
