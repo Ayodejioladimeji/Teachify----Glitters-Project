@@ -129,6 +129,10 @@ ul {
 .footer {
     background: #2EA2DB;
     padding: 70px 0px;
+    margin: auto;
+    max-width: 1265px;
+    overflow: auto;
+
 }
 
 .footer-col h4 {
@@ -146,6 +150,11 @@ ul {
 
 .copyright {
     background: #2EA2DB;
+    margin: 20px;
+}
+
+.copyright p {
+    text-align: center;
 }
 
 
