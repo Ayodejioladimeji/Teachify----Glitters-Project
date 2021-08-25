@@ -224,11 +224,96 @@ ul {
 /* THE END OF THE NAVIGATIONAL BAR */
 
 
-/* THE BEGINNING OF THE HERO SECTION*/
+/* THE BEGINNING OF THE HERO SECTION */
+.hero {
+	position: relative;
+	color: #fff;
+	margin: auto;
+}
+.hero-img {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
 
+.hero-img img {
+	min-width: 100vw;
+	max-height: 120vh;
+}
 
+/*hero Caption text */
+.hero .content {
+    position: absolute;
+    top: 16vw;
+    left: 18vw;
+}
 
+.hero .content h2 {
+	font-size: 50px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* line-height: 90px; */
+    color: #FFFFFF;
+}
+.hero .content h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 84.2337px;
+    margin-top: -20px;
+    /* line-height: 103px; */
+    color: #2EA2DB;
+    /* border: 3.50161px solid #FFFFFF; */
+}
+.hero .content h3 span img {
+    width: 60px;
+}
 
+.hero .content p {
+    font-family: Eagle Lake;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23.9743px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+.hero .content a {
+    background-color: var(--secondary);
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    background-color: var(--secondary);
+    width: 30px;
+    height: 30px;
+    padding: 0 6px;
+    margin: 0px 8px 0px 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.prev img, .next img {
+    width: 18px;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: var(--primary);
+}
 /* THE END OF THE HERO SECTION */
 
 
