@@ -58,6 +58,106 @@ ul {
 
 
 /* START YOUR CSS FROM HERE */
+
+.container {
+    margin: auto;
+    max-width: 1265px;
+    overflow: auto;
+    padding: 0px;
+    background-color: var(--white);
+}
+/* Terms and Conditions Title */
+#tc_title {
+    background: #193651;
+    width: 1265px;
+    height: 130px;
+   
+}
+#tc_title .tc_title h1 {
+    background-color: #193651;
+    color: white;
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    margin: 40px 60px;
+   
+    font-family: Eagle Lake;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 39px;
+
+}
+/* Terms and conditions image */
+#tc_img .tc_img img{
+  
+    width: 1265px;
+    height: 500px;
+}
+
+/* Terms and Conditions content */
+
+#tc_body  {
+   
+    width: 1200px;
+    height: 500px;
+    padding: 50px;
+    margin: 30px;
+    background-color:  var(--white);
+}
+
+#tc_body .tc_body  h1 {
+    width: 400px;
+    padding: 10px ;
+    margin-bottom: 30px;
+    font-family:var(--sans)
+}
+
+#tc_body .tc_body  p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-family:var(--sans)
+}
+
+/* Footer  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: coral;
+}
+.footer {
+    background: #2EA2DB;
+    padding: 70px 0px;
+    margin: auto;
+    max-width: 1265px;
+    overflow: auto;
+
+}
+
+.footer-col h4 {
+    color: white;
+}
+.footer-col ul {
+    list-style: none;
+    color: white;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 35px;
+}
+
+.copyright {
+    background: #2EA2DB;
+    margin: 20px;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+
 /* ===========TO USE THE VARIABLE CHECK THE EXAMPLES BELOW====================== */
 /* color:var(--white);
   background:var(--primary);
