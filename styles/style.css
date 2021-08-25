@@ -144,6 +144,10 @@ ul {
     padding: 0 35px;
 }
 
+.copyright {
+    background: #2EA2DB;
+}
+
 
 /* ===========TO USE THE VARIABLE CHECK THE EXAMPLES BELOW====================== */
 /* color:var(--white);
