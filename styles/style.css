@@ -6,7 +6,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0%;
+    padding: 0;
 }
 
 
@@ -238,7 +238,7 @@ footer > div {
 
 .hero-img img {
 	min-width: 100vw;
-	min-height: calc(85vh -72px) !important;
+	min-height: 85vh !important;
     object-fit: cover;
 }
 
@@ -362,15 +362,9 @@ main .course-decision {
     padding: 40px 100px;
 }
 
-main .course-decision img {
-    object-fit: contain;
-    object-position: center;
-    /*width: 100%;*/
-}
 main .course-decision {
     padding: 40px 100px;
     display: grid;
-    object-fit: center;
     grid-template-columns: repeat(2, 1fr);
     /* grid-template-rows: minmax(10px, auto); */
     /* grid-template-rows: minmax(200px, auto); */
@@ -393,22 +387,6 @@ main .course-decision div:nth-child(2) img {
 
 }
 
-
-/*
-main .course-decision img {
-    object-fit: cover;
-    width: 100%;
-}
-main .course-decision .col-md-7 {
-background: var(--primary);
-}
-main .course-decision div .second-part {
-}
-main .course-decision div h2 {
-    background-color: var(--white);
-}
-*/ 
-/***** STYLING FOR FAVORITE COURSES SECTION *****/
 main .favorite-course,
 main .new-course {
     padding: 15px;
@@ -509,8 +487,5 @@ main .new-course .card .card-body a {
 main .new-course .card .card-footer {
     color: var(--main);
 }
-
-
-
 
 /* THE END OF THE MAIN SECTION */
