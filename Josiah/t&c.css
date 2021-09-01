@@ -45,7 +45,6 @@ body {
 #tc_body  {
     
     max-width: 1265px;
-    height: 700px;
     position: relative;
     padding: 30px;
     margin: 10px;
@@ -60,7 +59,6 @@ body {
 }
 
 #tc_body .tc_body  h1 {
-    width: 400px;
     padding: 10px ;
     margin-bottom: 30px;
     font-family:var(--sans)
