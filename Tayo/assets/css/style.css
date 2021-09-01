@@ -1,0 +1,77 @@
+.bg-darkblue{
+    background-color: #193651;
+    color:white;
+}
+.bg-darkblue h4{
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:white;
+ 
+}
+.bg-darkblue h6{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:white;
+ 
+}
+.privacy-bgimg{
+    height:550px;
+    background-image: url("../../assets/img/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.privacy-cont h2{ 
+    font-family: DM Sans;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.privacy-cont p{ 
+    font-family: DM Sans; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-orange{
+    color:#F16051;
+}
+.border-blue{
+    border: 1px solid #2EA2DB;
+}
+.list-cont ul li{
+    line-height: 3em;
+}
+.list-cont ul {
+    list-style: none;
+}
+.list-cont ul li::before {
+    content: "\2022";
+    color: #F16051;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.description{
+    line-height: 2.5em;
+}
