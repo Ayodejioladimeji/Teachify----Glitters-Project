@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     html,body{
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.0cm;
@@ -220,3 +221,227 @@
 
 
 
+=======
+    html,body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.0cm;
+    }
+    
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    h1, h2, h3 {
+        padding-bottom: 20px;
+    }
+    
+    p, h2{
+        margin: 10px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: white;
+    }
+    
+    
+    #navbar {
+        background:#10a2e6;
+        color: #fff;
+        overflow: auto;
+    }
+    #navbar a {
+        color: #fff;
+    }
+    #navbar h1{
+        float: left;
+        padding-top: 20px;
+        }
+    #navbar ul { 
+        list-style: none;
+        margin:0;
+        float: right;
+       }
+    #navbar ul li {
+        float: left;
+    }
+    #navbar ul li a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    
+    }
+    #navbar ul li a:hover,
+    #navbar ul li a.currrent {
+        background: #blue;
+        color: #f7c08a;
+    }
+    #page-header {
+        margin: 10px;
+        background-color:#10a2e6;
+        color: fff;
+        padding: 20px;
+    }
+    .page-header, p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size:20px;
+        font-style: italic;
+        text-align: left;
+    }
+
+    .cont {
+        display: flex;
+        height: 300px;
+        width: 60%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .cont .cont-item {
+        width: 300px;
+        height: 150px;
+        background-color:rgb(243, 247, 246);
+        border-radius: 10%;
+        margin: 10%;
+        padding: 0%;
+    }
+    .cont .cont-item  p {
+        text-align: center;
+        padding: 0%;
+        color: blue;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .cont .cont-item  h1 {
+        font-size: 24px;
+        padding: 0%;
+        text-align: center;
+        color: blue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #how-can {
+        color: tomato;
+        text-align:center;
+
+    }
+    .form-group{
+        display: flex;
+        height: 500px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .form-group #form-group {
+        width: 150px;
+        height: 150px;
+        margin: 0px;
+        padding: 0%;
+    }
+    .form-group #form-group, img {
+        height: 100%;
+        width: 70%;
+        margin: 0%;
+    }
+
+
+
+    .form-group #form-group input{
+        width: 50%;
+        padding: 10px;
+        margin: 10px    ;
+        border: 1px #ddd solid;
+    }
+    .form-group #form-group button{
+        width: 50%;
+        padding: 10px;
+        margin: 20px   ;
+        border: 1px rgb(138, 136, 136) solid;
+        background-color:#10a2e6;
+        height: 60px;
+    }
+
+    .form-group #form-group textarea{
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        margin: 10px    ;
+        border: 1px #ddd solid;
+    }
+
+
+
+    
+    .foot-note {
+        display: flex;
+        height: 350px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color:#10a2e6 ;
+        font-size: 12px;
+    }
+    .foot-note p {
+        font-size: 18px;
+    }
+    #item h1 {
+        color: red;
+    }
+    #item {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        
+    }
+    #item ul li a {
+        margin: 0%;
+        font-size: 18px;
+    }
+    #item ul {
+        list-style: none;
+    }
+
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.course-all {
+    flex: 20%;
+    padding: 0 4px;
+    margin: 10px;
+    border-style:solid;
+}
+.course-all img{
+    width: 320px;
+    height: 320px;
+}
+.course-all h1 {
+    color: blue;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+.course-all button{
+    width: 90%;
+    padding: 0px;
+    margin: 20px   ;
+    border: 1px rgb(138, 136, 136) solid;
+    background-color:#10a2e6;
+    height: 60px;
+}
+
+
+    #main-footer{
+        margin: 10px;
+        text-align: center;
+        background-color:#10a2e6;
+        color: fff;
+        padding: 20px;
+    }
+    .main-foot {
+        font-family: 'Times New Roman', Times, serif;
+        font-size:16px;
+    }
+    
+
+
+
+>>>>>>> 8bac09b7d990a2b9756ff57c56ce38e7af108782
