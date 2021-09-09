@@ -1,0 +1,891 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+
+/* THE SECTION OF THE GLOBAL VARIABLES */
+:root {
+
+    /* THE COLOURS */
+    --white: #fff;
+    --primary: #2EA2DB;
+    --light-blue: #2EA2DB;
+    --secondary: #F16051;
+    --tetiary: #193651;
+    --light: #E5E5E5;
+    --deep-light: #616161;
+    --main: #F29C1F;
+    --black: #000;
+
+
+    /* THE FONT-FAMILIES */
+    --mont: 'Montserrat';
+    --sans: "DM Sans";
+    --mukta: 'Mukta';
+
+
+    /* SHADOWS AND TRANSITIONS */
+    --shadows: 0px 22px 24px rgba(65, 111, 244, 0.2);
+    --shadoos: 0px 0px 7px rgba(65, 111, 65, 0.2);
+    --shadow: 15px 15px 25px #ddd;
+    --transition: all 0.3s linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-center {
+    /* it will be used as utility class */
+    text-align: center;
+}
+
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[type=submit].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+
+
+
+/* ===========TO USE THE VARIABLE CHECK THE EXAMPLES BELOW====================== */
+/* color:var(--white);
+  background:var(--primary);
+  transition:var(--transition);
+  box-shadow:var(--shadoos);
+  font-family:var(--mukta); */
+
+/* =============FOLLOW THE EXAMPLES ABOVE==================================== */
+
+
+
+
+/* THE SECTION OF THE NAVIGATIONAL BAR */
+
+.navbar {
+    background: var(--white);
+    box-shadow: var(--shadoos);
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-brand img {
+    width: 110px;
+}
+
+.navbar>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-nav .dropdown {
+    margin-left: 95px;
+    background-color: var(--light);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.navbar-nav .dropdown .nav-link span {
+    margin-left: 1rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.navbar-nav .dropdown .nav-link img {
+    width: 15px;
+}
+
+.navbar .container-fluid .navbar-collapse form input {
+    width: 300px;
+    background: var(--light) !important;
+}
+
+.navbar .container-fluid .navbar-collapse form img {
+    right: 15px;
+    width: 15px;
+    transform: translateY(70%);
+}
+
+.navbar .container-fluid .navbar-collapse div a {
+    background-color: var(--primary);
+    text-decoration: none;
+    padding: 12px 20px;
+    color: var(--white);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 13px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+
+.navbar .container-fluid .navbar-collapse div a:hover {
+    background-color: var(--tetiary);
+}
+
+
+.navbar .container-fluid .navbar-collapse div a:last-child {
+    background-color: var(--secondary);
+    margin-left: 20px;
+}
+
+.navbar .container-fluid .navbar-collapse div a:last-child:hover {
+    background-color: var(--tetiary);
+
+}
+
+@media only screen and (min-width: 767px) {
+    .navbar {
+        padding: 29px 51px 33px 25px;
+    }
+}
+
+/* THE END OF THE NAVIGATIONAL BAR */
+
+
+/* THE BEGINNING OF THE HERO SECTION */
+.hero {
+    position: relative;
+    color: var(--white);
+    height: 100vh;
+}
+
+.hero::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.699);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.mySlides {
+    height: 100vh;
+}
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-img img {
+    min-width: 100vw;
+    min-height: 85vh;
+    object-fit: cover;
+}
+
+
+/* ---------------------------------- */
+/*hero Caption text */
+.hero .content {
+    position: absolute;
+    top: 12vw;
+    left: 7vw;
+}
+
+.hero .content h2 {
+    font-size: 40px;
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 500;
+    color: var(--white);
+    letter-spacing: 3px;
+}
+
+.hero .content h3 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    margin-top: -10px;
+    color: var(--primary);
+    text-shadow: 2px 2px var(--white);
+}
+
+.hero .content h3 span img {
+    width: 50px;
+}
+
+.hero .content p {
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--white);
+    margin-bottom: 1.2rem;
+}
+
+.hero .content a {
+    background-color: var(--secondary);
+    color: var(--white);
+    text-decoration: none;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: var(--transition)
+}
+
+.hero .content a:hover {
+    background: var(--tetiary);
+}
+
+/* ---------------------------------- */
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    background-color: var(--secondary);
+    width: 30px;
+    height: 30px;
+    padding: 0 6px;
+    margin: 0px 8px 0px 8px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.prev img,
+.next img {
+    width: 18px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: var(--primary);
+}
+
+/* THE END OF THE HERO SECTION */
+
+
+
+/* THE BEGINNING OF THE MAIN SECTION */
+main {
+    overflow-x: hidden !important;
+}
+
+/* The section of what we offer */
+main .what-we-offer-1 {
+    background-color: var(--tetiary);
+    padding: 30px 50px;
+    overflow-x: hidden !important;
+    color: var(--white);
+}
+
+main .what-we-offer-2 {
+    padding: 50px 50px 80px;
+    background: rgba(46, 162, 219, 0.13);
+}
+
+main .what-we-offer-2 .card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+}
+
+main .what-we-offer-2 .card img {
+    margin: 10px auto 0;
+}
+
+main .what-we-offer-2 .card .card-title {
+    font-size: 18px;
+}
+
+
+main .course-decision {
+    padding: 40px 100px;
+}
+
+main .course-decision .course-decision-content {
+    border-radius: 30px;
+    box-shadow: 0px 4.72199px 4.72199px rgba(0, 0, 0, 0.25);
+}
+
+main .course-decision .course-decision-content .row .col-md-7 {
+    border-top-left-radius: 30px;
+}
+
+.order-1 .turn {
+    font-size: 24px !important;
+    font-family: var(--sans);
+    margin-top: 30px;
+}
+
+main .course-decision .course-decision-content .row .col-md-7 .second-part {
+    background-color: var(--primary);
+    color: var(--white);
+    border-bottom-left-radius: 30px;
+}
+
+main .course-decision .course-decision-content .row .col-md-7 h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32.6384px;
+    /* line-height: 64px; */
+
+    color: #193651;
+}
+
+main .course-decision .course-decision-content .row .col-md-7 .second-part p {
+    font-size: 18px;
+}
+
+main .course-decision .course-decision-content .row .col-md-7 .second-part a {
+    background: var(--secondary);
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    padding: 12px 24px !important;
+}
+
+.second-part a:hover {
+    background: var(--tetiary)
+}
+
+
+
+main .course-decision .course-decision-content .row .col-md-5 img {
+    height: 356px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+main .favorite-course,
+main .new-course {
+    padding: 30px 50px;
+}
+
+main .favorite-course h3 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: var(--primary);
+}
+
+main .favorite-course a {
+    background: var(--secondary);
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+main .favorite-course .row .col-12 .card {
+    background: rgba(46, 162, 219, 0.13);
+    padding: 15px 15px 30px;
+    border: 0;
+    border-radius: 15px;
+}
+
+main .favorite-course .row .col-12 .card span img {
+    background: rgba(18, 123, 175, 0.13);
+    /* I used another color here, the color here and the card are the same with what i found on figma */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+main .favorite-course .row .col-12 .card .card-body .card-title {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main .favorite-course .row .col-12 .card .card-body .card-text {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--tetiary);
+}
+
+/***** STYLING FOR NEW COURSES SECTION *****/
+main .new-course h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--primary);
+}
+
+main .new-course p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: var(--tetiary);
+}
+
+main .new-course .card .card-body .card-title {
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--deep-light);
+}
+
+main .new-course .card .card-body .card-content h4 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--tetiary);
+
+}
+
+main .new-course .card .card-body a {
+    background: var(--primary);
+    color: var(--white);
+}
+
+main .new-course .card .card-footer {
+    color: var(--main);
+    font-size: 12px;
+}
+
+/* THE END OF THE MAIN SECTION */
+
+
+/* ====================================== */
+
+.landingContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Section1 Styling */
+#section1 {
+    width: 100%;
+    font-family: var(--mont);
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    background-color: var(--white);
+}
+
+#section1 .knowMore {
+    width: 55%;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 50px;
+    box-shadow: -10px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+#section1 .more {
+    background-color: var(--white);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#section1 .more h2 {
+    margin-bottom: 10px;
+    font-family: var(--mont);
+    font-size:18px;
+    font-weight: bold;
+}
+
+#section1 .more p { 
+    
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-family: var(--mont);
+}
+
+#section1 .more ul {
+    /* font-size: larger; */
+    margin-bottom: 20px;
+    padding-left:0;
+}
+#section1 .more ul li {
+    list-style: none;
+    line-height: 50px;
+    font-family: var(--mont);
+    font-size: 1em;
+}
+#section1 .more ul li img {
+    margin-top: 0px;
+}
+.startButton {
+    background-color: rgb(211, 73, 49);
+    border: none;
+    color: white;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;      
+}
+
+#section1 .guyImg {
+    width: 35%;
+    position: relative;
+    margin-top:60px;
+    margin-right: 30px;
+    padding: 0px 10px;
+    justify-content: center;
+}
+.guyImg img {
+   
+   bottom: 0;
+}
+
+
+
+/* section 2 Styling */
+
+#section2 {
+    background-color: var(--primary);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: var(--mont);
+    
+}
+
+#section2 .section2details {
+   margin: 20px;
+   padding: 30px;
+   width: 900px;
+   text-align: center;
+}
+#section2 .section2details h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#section2 .section2details p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+}
+#section2 .section2details .startedButton {
+    background-color: rgb(211, 73, 49);
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+/* Card Section  */
+/* CARD ONE */
+#cards {
+    width: 100%;
+    font-family: var(--sans);
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+    padding: 50px;
+    justify-content: center;
+    background-color: var(--white);
+    line-height: 30px;
+}
+
+#cards .card1 p {
+    margin-bottom: 10px;
+    font-size:13px;
+    text-align:center;
+}
+
+#cards .card1 {
+    background-color: var(--white);
+    width: 35%;
+    margin-right: 20px;
+    padding: 20px;
+    min-height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#cards .card1 button {
+    background-color: rgb(211, 73, 49);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 13px;
+    cursor: pointer;
+    margin:0 auto;
+}
+#cards .card1 h2{
+    text-align:center;
+    font-size:20px;
+    /* margin-top:20px; */
+}
+
+#cards .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+
+  /* Card TWO */
+#cards .card2 {
+    background-color: var(--white);
+    width: 35%;
+    margin-left: 20px;
+    padding: 20px;
+    min-height: 200px;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#cards .card2 p {
+    margin-bottom: 10px;
+    font-size:13px;
+    text-align:center;
+}
+#cards .card2 h2{
+    text-align:center;
+    font-size:20px;
+    margin-top:20px;
+}
+#cards h2 {
+    margin-bottom: 15px;  
+}
+
+#cards .card2 button {
+    background-color: rgb(211, 73, 49);
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 13px;
+    cursor: pointer;
+    margin:0 auto;
+
+}
+
+
+/* THE BEGINNING OF THE FOOTER */
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    color: var(--white);
+    font-size: 14px;
+    background: var(--primary);
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: var(--tetiary);
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-contact h3 span {
+    color: var(--secondary);
+}
+
+#footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+#footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top h4::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--secondary);
+    bottom: 0;
+    left: 0;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: #aaaaaa;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#footer .footer-newsletter {
+    font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    background: var(--white);
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 4px;
+    text-align: left;
+
+}
+
+#footer .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+    outline: none;
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: var(--secondary);
+    color: var(--white);
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+    background: var(--secondary);
+}
+
+#footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: var(--tetiary);
+    color: var(--white);
+    text-decoration: none;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: var(--secondary);
+    color: var(--white);
+    text-decoration: none;
+}

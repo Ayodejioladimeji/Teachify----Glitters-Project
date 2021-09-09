@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LMS - LOGIN</title>
+    <link rel="icon" href="/assets/study.svg">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- BOOTSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="containers">
+        <!-- THE SECTION OF THE NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../assets/images/logo-brand.svg" alt="Teachify logo" />
+                </a>
+
+                <!-- THE TOGGLE BUTTON -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <!-- LIST OF COURSES FROM THE DROPDOWN -->
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../assets/images/four-bars.svg" alt="bars for courses" />
+                                <span>Courses</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">All Categories</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Frontend Development</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Backend Development</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Mobile Development</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Follow RoadMap</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- THE SEARCH FORM -->
+                    <form class="d-flex position-relative">
+                        <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" />
+                        <img src="../assets//images/search-icon.svg" alt="search icon" class="position-absolute" />
+                    </form>
+
+                    <!-- THE LOGIN AND SIGN IN BUTTON -->
+                    <div>
+                        <a href="login.html">Login</a>
+                        <a href="register.html">SignUp</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- ADD YOUR OWN SECTION HERE -->
+
+        <!-- THIS IS THE SECTION OF THE LOGIN PAGE -->
+
+        <section>
+            <div class="login-container">
+
+                <p>Login using your Email and password or using social media</p>
+                <hr>
+
+
+                <div class="content">
+                    <form action="">
+                        <div class="form-left">
+                            <label for="lname">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter you email">
+                        </div>
+
+                        <div class="form-left">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="email" placeholder="Enter your password"
+                                required>
+                        </div>
+
+                        <div class="submit-btn">
+                            <input type="submit" value="Login">
+                        </div>
+
+                        <p id="fpword">Forgot your password? click here</p>
+                    </form>
+                </div>
+
+                <!-- SOCIAL MEDIA BUTTONS -->
+
+                <div class="social-btn">
+                    <button class="dark"><i class="fa fa-facebook"></i> Facebook</button>
+                    <button class="red-btn"><i class="fa fa-google"></i>Google</button>
+                    <button class="lblue-btn"><i class="fa fa-twitter"></i>Twitter</button>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <!-- THE SECTION OF THE FOOTER -->
+        <footer>
+
+        </footer>
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+<!-- PLEASE ALWAYS ADD COMMENTS JUST LIKE THE ONE ABOVE -->
