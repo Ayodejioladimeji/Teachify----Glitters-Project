@@ -86,9 +86,10 @@
   } 
   
   /* Style the submit button */
-  input[type=submit], button {
+  input[type=submit], .submit-btn button {
     width: 95%;
     left: 30px;
+    /* margin-top: 30px; */
     background:var(--primary);
     font-family: var(--mont);
     font-style: normal;

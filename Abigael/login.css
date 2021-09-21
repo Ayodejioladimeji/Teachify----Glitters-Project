@@ -70,7 +70,7 @@
   } 
   
   /* Styles for the submit button */
-   input[type=submit] {
+  .submit-btn button {
     width: 90%;
     left: 30px;
     background-color: var(--primary);
@@ -150,6 +150,6 @@
   }
   
   /* Add a background color to the submit button on mouse-over */ 
-  .submit-btn > input[type=submit]:hover {
+  .submit-btn > button:hover {
     background-color: var(--primary);
   }  
