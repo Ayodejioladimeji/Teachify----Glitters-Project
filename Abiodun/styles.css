@@ -1,0 +1,378 @@
+/* THE BEGINNING OF THE HERO SECTION */
+.hero {
+    position: relative;
+    color: var(--white);
+    margin: auto;
+}
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-img img {
+    min-width: 100vw;
+    min-height: 85vh;
+    object-fit: cover;
+}
+
+/*hero Caption text */
+.hero .content {
+    position: absolute;
+    top: 16vw;
+    left: 18vw;
+}
+
+.hero .content h2 {
+    font-size: 50px;
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.hero .content h3 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 84.2337px;
+    margin-top: -20px;
+    color: var(--primary);
+}
+
+.hero .content h3 span img {
+    width: 60px;
+}
+
+.hero .content p {
+    font-family: Eagle Lake;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23.9743px;
+    line-height: 30px;
+    color: var(--white);
+    margin-bottom: 3rem;
+}
+
+.hero .content a {
+    background-color: var(--secondary);
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    background-color: var(--secondary);
+    width: 30px;
+    height: 30px;
+    padding: 0 6px;
+    margin: 0px 8px 0px 8px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.prev img,
+.next img {
+    width: 18px;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: var(--primary);
+}
+
+/* THE END OF THE HERO SECTION */
+
+/* THE BEGINNING OF THE MAIN SECTION */
+main {
+    overflow-x: hidden !important;
+}
+
+main .what-we-offer-1 {
+    background-color: var(--light-blue);
+    padding: 30px 50px;
+    overflow-x: hidden !important;
+    color: var(--white);
+}
+
+main .what-we-offer-2 {
+    padding: 50px 50px 80px;
+    background: rgba(46, 162, 219, 0.13);
+}
+
+main .what-we-offer-2 .card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+}
+
+main .what-we-offer-2 .card img {
+    margin: 10px auto 0;
+}
+
+main .what-we-offer-2 .card .card-title {
+    font-size: 18px;
+}
+
+
+main .course-decision {
+    padding: 40px 100px;
+}
+
+main .course-decision .course-decision-content {
+    border-radius: 30px;
+    box-shadow: 0px 4.72199px 4.72199px rgba(0, 0, 0, 0.25);
+}
+
+main .course-decision .course-decision-content .row .col-md-7 {
+    border-top-left-radius: 30px;
+}
+
+main .course-decision .course-decision-content .row .col-md-7 .second-part {
+    background-color: var(--primary);
+    color: var(--white);
+    border-bottom-left-radius: 30px;
+}
+main .course-decision .course-decision-content .row .col-md-7 h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32.6384px;
+    /* line-height: 64px; */
+
+    color: #193651;
+}
+
+main .course-decision .course-decision-content .row .col-md-7 .second-part p {
+    font-size: 18px;
+}
+
+main .course-decision .course-decision-content .row .col-md-7 .second-part a {
+    background: var(--secondary);
+    text-decoration: none;
+    color: var(--white);
+}
+
+main .course-decision .course-decision-content .row .col-md-5 img {
+    height: 356px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+main .favorite-course,
+main .new-course {
+    padding: 30px 50px;
+}
+
+main .favorite-course h3 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: var(--primary);
+}
+
+main .favorite-course a {
+    background: var(--secondary);
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+main .favorite-course .row .col-12 .card {
+    background: rgba(46, 162, 219, 0.13);
+    padding: 15px 15px 30px;
+    border: 0;
+}
+
+main .favorite-course .row .col-12 .card span img {
+    background: rgba(18, 123, 175, 0.13);
+    /* I used another color here, the color here and the card are the same with what i found on figma */
+    padding: 13px;
+}
+
+main .favorite-course .row .col-12 .card .card-body .card-title {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.5775px;
+    line-height: 30px;
+}
+
+main .favorite-course .row .col-12 .card .card-body .card-text {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--tetiary);
+}
+
+/***** STYLING FOR NEW COURSES SECTION *****/
+main .new-course h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--primary);
+}
+
+main .new-course p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: var(--tetiary);
+}
+
+main .new-course .card .card-body .card-title {
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: var(--black);
+}
+
+main .new-course .card .card-body .card-content h4 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 19px;
+    color: var(--tetiary);
+
+}
+
+main .new-course .card .card-body a {
+    background: var(--primary);
+    color: var(--white);
+}
+
+main .new-course .card .card-footer {
+    color: var(--main);
+}
+
+/* THE END OF THE MAIN SECTION */
+
+/* THE START OF THE MEDIA QUERY */
+@media only screen and (max-width: 767px) {
+    .hero .content {
+        top: 10vw;
+        left: 10vw;
+        right: 7vw;
+    }
+    .hero .content h2 {
+        font-size: 40px;
+    }
+    .hero .content h3 {
+        font-size: 64px;
+    }
+    .hero .content h3 span img {
+        width: 40px;
+    }
+    .hero .content p {
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+    .hero .content a {
+        font-weight: normal;
+    }
+    /* MAIN SECTION */
+    main .course-decision {
+        padding: 40px 20px !important;
+    }
+    main .course-decision .course-decision-content .row .col-md-7 .second-part {
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    main .course-decision .course-decision-content .row .col-md-5 img {
+        height: 200px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .hero .content {
+        top: 10vw;
+        left: 10vw;
+        right: 7vw;
+    }
+    .hero .content h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .hero .content h3 {
+        font-size: 44px;
+        line-height: 65px;
+    }
+    .hero .content h3 span img {
+        width: 25px;
+    }
+    .hero .content p {
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    .prev, .next {
+        display: none;
+    }
+
+    .hero-break {
+        display: none;
+    }
+
+    /*  MAIN SECTION */
+    main .new-course,
+    main .favorite-course,
+    main .course-decision {
+        padding: 0px 20px 40px;
+    }
+    main .what-we-offer-1,
+    main .what-we-offer-2 {
+        padding: 40px 20px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .hero-img img {
+        min-height: 95vh;
+    }
+    .hero .content {
+        top: 10vw;
+        left: 5vw;
+        right: 2vw;
+    }
+    .hero .content h2 {
+        line-height: 40px;
+    }
+    .hero .content p {
+        margin-bottom: 1rem;
+    }
+    .hero .content a {
+        padding: 6px 10px;
+        font-size: 16px;
+    }
+}

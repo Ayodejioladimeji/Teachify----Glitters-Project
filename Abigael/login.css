@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    position: absolute;
+    width: 729px;
+    justify-content: center;
+    height: 400px;
+    padding-top: 10px;
+    left: 340px;
+    top: 150px;
+    background: var(--shadows);
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+  
+    margin: auto;
+    overflow: auto;
+  }
+  
+  .login-container hr {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 50px;
+    border: -1px solid var(--black);
+  }
+  .login-container  p {
+      position: absolute;
+    left: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    
+    color: var(--secondary);
+  }
+  
+  .content{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+  }
+  
+  .content {
+    width: 50%;
+    float: left;
+  }
+  .social-btn {
+    position: absolute;
+    left: 200px;
+    width: 50%;
+    float: right;
+    top: 40px;
+  }
+  
+  input[type=email], input[type=password] {
+    width: 90%;
+    top: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid var(--deep-light);
+    border-radius: 4px;
+    box-sizing: border-box;
+  } 
+  
+  /* Styles for the submit button */
+  .submit-btn button {
+    width: 90%;
+    left: 30px;
+    background-color: var(--primary);
+    font-family: var(--mukta);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    color: var(--white);
+    padding: 14px 10px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+  
+  #fpword{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    color: var(--secondary);
+  }
+  
+  /*section of the docial button*/
+  
+  .login-container > .social-btn{
+    margin-top: 100px;
+  
+  }
+  .social-btn > button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    top: 400px;
+    height: 50px;
+    margin-left: 200px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.05em;
+    color: var(--light);
+    border: 1px solid var(--deep-light);
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+  }
+
+  button{
+    padding-top: 10px;
+  }
+
+  button > .fa{
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  
+  
+  .social-btn > .dark{
+    background-color: var(--tetiary) ;
+  }
+
+  .social-btn > .red-btn {
+    background: var(--secondary);
+  }
+  
+  .social-btn > .lblue-btn{
+    background: var(--primary);
+  }
+  
+  /* Add a background color to the submit button on mouse-over */ 
+  .submit-btn > button:hover {
+    background-color: var(--primary);
+  }  
