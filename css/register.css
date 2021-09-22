@@ -85,7 +85,7 @@ select {
 
 /* Style the submit button */
 input[type=submit],
-button {
+.submit-btn button {
   width: 95%;
   left: 30px;
   background: var(--primary);

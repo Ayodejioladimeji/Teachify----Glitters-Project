@@ -65,7 +65,7 @@
   }
 
   /* Styles for the submit button */
-  input[type=submit] {
+  .submit-btn button {
     width: 90%;
     left: 30px;
     background-color: var(--primary);
