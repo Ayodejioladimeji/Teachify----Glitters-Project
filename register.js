@@ -32,6 +32,8 @@ submitForm.addEventListener('click', (e) => {
 
     let registeredUser = [];
     const filteredSavedEmail = savedUser.filter(user => user.email == email.value )
+    console.log(filteredSavedEmail)
+
     if (password.value !== confirmPassword.value) {
         alert('Password do not match')
     }  else if (filteredSavedEmail) { 
